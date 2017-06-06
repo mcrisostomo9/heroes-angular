@@ -30,4 +30,9 @@ export class AppComponent {
     id: 1,
     name: 'Markus'
   };
+  selectedHero: Hero;
+
+  onSelect(hero: Hero): void{
+    this.selectedHero = hero
+  }
 }
